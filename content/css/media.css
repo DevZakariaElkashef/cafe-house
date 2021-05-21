@@ -1,0 +1,219 @@
+@media screen and (max-width:1200) {
+    .best-coffe .text p {
+        text-align: justify;
+    }
+    .menu__text p {
+        width: 85%;
+        margin:0  1rem;
+    }
+    .menu__text a{
+        margin-bottom: 3rem;
+    
+    }
+    .popular .mt-10{
+        margin-top: 0 !important;
+    }
+}
+@media screen and (max-width:1024px) {
+    .tabel{
+        width: 90%;
+    }
+    footer .social__icon a {
+        margin: 0 0.1rem;
+        line-height: 2.5;
+        padding: 4px 9px;
+        border-radius: 2px;
+        background: #505050;
+        color: var(--mainWhite);
+        transition: var(--transition);
+      }
+      .disable768{
+        display: none;
+    }
+    .menu-card{
+        width: 95%;
+    }
+    .menu-card p{
+        width: 99% !important;
+        margin: 1.5rem 0.2rem;        
+    }
+}
+
+@media screen and (max-width:768px) {
+    .banner__text p {
+        width: 90%;
+        margin: 0 auto;
+        text-align: justify;
+        color: var(--secGray);
+        font-family: var(--secondryFont);
+      }
+      .popular .col-md-4 {
+          margin: 2rem 0;
+      }
+    .navbar-nav .active{
+        background: none;
+    }
+    .lights{
+        width: 80%;
+        margin: 4rem auto;
+        
+    }
+    .banner {
+        margin-top: -100px;
+        margin-bottom: 250px;
+      }
+    .lights img{
+        margin: 0 auto;
+    }
+    
+    .tabel{
+        width: 90%;
+        bottom: -90px;
+    }
+    .best-coffe {
+        margin-top: 8rem;
+      }
+      .best-coffe .text p{
+        width: 85%;
+
+        }
+        .best-coffe .img{
+            text-align: end;
+            /* display: none; */
+        }
+        .line h3::after {
+            content: "";
+            display: inline-block;
+            width: 55%;
+            margin-left: 3rem;
+            height: 1px;
+            border-radius: 20px;
+            background: var(--mainColor);
+          }
+          .menu__text p {
+            width: 25rem;
+            margin:0 auto 1rem;
+        }
+        .menu__text a{
+            margin: 1rem 0;
+        
+        }
+       
+       
+        .menu-card p{
+            width: 99% !important;
+            margin: 1.5rem 0.2rem;        
+        }
+}
+
+@media screen and (max-width:600px) {
+    p{
+        width: 80% !important;
+
+    }
+    .menu-bord__img {
+        margin: auto;
+    }
+    .contact .col-md-6{
+        margin: 1rem 0;
+    }
+}
+@media screen and (max-width:540px) {
+    
+    .lights .disable{
+        display: none;
+    }
+    .banner {
+        margin-top: -100px;
+        margin-bottom: 150px;
+      }
+    .banner__text p{
+        width: 20rem;
+    }
+    .tabel{
+        width: 90%;
+        bottom: -50px;
+    }
+    .best-coffe {
+        margin-top: 5rem;
+      }
+     .block{
+         display: block;
+     }
+     .best-coffe .img{
+         display: none;
+     }
+      
+    .line {
+        margin: 2rem 0;
+        text-align: center;
+    }
+    .line h3::after {
+        content: "";
+        display: inline-block;
+        width: 75%;
+        margin-left: 3rem;
+        height: 1px;
+        border-radius: 20px;
+        background: var(--mainColor);
+      }
+    .popular .col-md-4{
+        margin-bottom: 4rem;
+    }
+    .menu{
+        text-align: center;
+        margin: auto;
+    }
+    .menu__img-con {
+        width: 50%;
+        margin:0 auto 1rem;
+
+      }
+    .menu__text p {
+        width: 20rem;
+        margin:0 auto 1rem;
+    }
+    .menu__text ol {
+       width: 90%;
+       margin: 3rem auto;
+      }
+    .menu__text a{
+        margin: 1rem 8rem;
+    
+    }
+    footer{
+        text-align: center;
+    }
+    .mt-10{
+        margin: 5rem auto 1rem;
+    }
+    .popular .card{
+        width: 85%;
+    }
+}
+
+@media screen and (max-width:360px) {
+    .wellcome h2{
+        font-size: 25px;
+        margin: 0 0.3rem;
+
+    }
+    
+    .menu__text ol {
+        width: 80%;
+        margin: 3rem auto;
+       }
+    footer{
+        font-size: 60%;
+        
+    }
+    .mt-10{
+        margin: 5rem auto 1rem;
+    }
+    .menu__text a{
+        margin: 1rem 0;
+    
+    }
+   
+    
+}
